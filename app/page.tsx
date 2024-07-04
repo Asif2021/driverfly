@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export default function Home() {
   const router = useRouter()
   return (
-    <main className="text-center">
+    <main className="text-center mt-5">
       <Button variant="success" onClick={()=>router.push("/find-job")}>Find Job</Button>
     </main>
   );
